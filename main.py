@@ -7,7 +7,7 @@ Stack: aiogram 3.27, APScheduler, SQLite, python-dotenv
 2. Тексты прогрева меняются в переменной TOUCH_TEXTS ниже (поиск по Ctrl+F)
 3. Аудио кладите в папку audio/ с именами: lead_magnet.mp3, touch_2.mp3, touch_4.mp3
 """
-
+import os
 import asyncio
 import logging
 import sqlite3
